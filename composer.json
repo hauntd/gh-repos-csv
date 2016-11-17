@@ -1,0 +1,15 @@
+{
+    "name": "hauntd/gh-repos-csv",
+    "description": "Retrieves GitHub user's repositories and saves to CSV file",
+    "type": "project",
+    "require": {
+        "knplabs/github-api": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Kononenko",
+            "email": "contact@hauntd.me"
+        }
+    ]
+}
