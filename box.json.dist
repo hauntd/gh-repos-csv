@@ -1,0 +1,19 @@
+{
+    "chmod": "0755",
+    "directories": [
+        "src"
+    ],
+    "files": [
+        "vendor/herrera-io/phar-update/res/schema.json"
+    ],
+    "finder": [
+        {
+            "name": "*.php",
+            "in": "vendor"
+        }
+    ],
+    "git-version": "package_version",
+    "main": "bin/gh-repos-csv",
+    "output": "gh-repos-csv.phar",
+    "stub": true
+}

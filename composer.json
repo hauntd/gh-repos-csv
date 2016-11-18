@@ -3,7 +3,15 @@
     "description": "Retrieves GitHub user's repositories and saves to CSV file",
     "type": "project",
     "require": {
-        "knplabs/github-api": "^1.7"
+        "knplabs/github-api": "^1.7",
+        "symfony/console": "^3.0",
+        "herrera-io/phar-update": "~1.0",
+        "league/csv": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App"
+        }
     },
     "license": "MIT",
     "authors": [
