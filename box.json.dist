@@ -10,6 +10,10 @@
         {
             "name": "*.php",
             "in": "vendor"
+        },
+        {
+            "name": "*.pem",
+            "in": "vendor"gi
         }
     ],
     "git-version": "package_version",
