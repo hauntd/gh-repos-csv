@@ -74,7 +74,7 @@ cat manifest.json | jsawk -a "this.push({${JSON}})" | python -mjson.tool > manif
 mv manifest.json.tmp manifest.json
 git add manifest.json
 
-git commit -a -m "Bump version ${TAG}"
+git commit -m "Bump version ${TAG}"
 
 #
 # Go back to master
