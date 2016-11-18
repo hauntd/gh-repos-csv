@@ -13,7 +13,7 @@
         },
         {
             "name": "*.pem",
-            "in": "vendor"gi
+            "in": "vendor"
         }
     ],
     "git-version": "package_version",
